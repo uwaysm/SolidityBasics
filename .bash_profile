@@ -1,1 +1,0 @@
-source /Users/uways/.bashrc
