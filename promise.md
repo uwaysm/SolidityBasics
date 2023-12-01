@@ -16,3 +16,5 @@ cast send 0x683192e5C0d276c6d023837db6BfE5877ee2A8ea "store(uint256)"
 --rpc-url $RPC_URL --private-key $PRIVATE_KEY
 
 cast call 0xD949ba04e0E63750915C3Bfe18a33D3829723a2e "retrieve()" --rpc-url $RPC_URL
+
+forge test --mt testPriceFeedVersionIsAccurate -vvv --fork-url $SEPOLIA_RPC_URL
