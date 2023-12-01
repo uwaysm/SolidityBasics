@@ -4,3 +4,6 @@
 [submodule "video2/lib/forge-std"]
 	path = video2/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "video2/lib/chainlink-brownie-contracts"]
+	path = video2/lib/chainlink-brownie-contracts
+	url = https://github.com/smartcontractkit/chainlink-brownie-contracts
